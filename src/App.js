@@ -1,20 +1,21 @@
-function App() {
+import Contact from "./components/Contact/Contact";
+import Container from "./components/Container/Container";
+import Gallery from "./components/Gallery/Gallery";
+import Header from "./components/Header/Header";
+import Intro from "./components/Intro/Intro";
+import Offer from "./components/Offer/Offer";
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+<main>
+  <Container>
+    <Header/>
+    <Intro/>
+    <Offer/>
+    <Gallery/>
+    <Contact/>
+  </Container>
+</main>
   );
 }
 
