@@ -1,6 +1,8 @@
+import styles from './Title.module.scss';
+
 const Title = props => {
     return (
-        <div>Małgorzata Kowalczyk</div>
+        <div className={styles.title}>Małgorzata Kowalczyk</div>
     )
 }
 

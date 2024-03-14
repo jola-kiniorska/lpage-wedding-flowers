@@ -1,0 +1,9 @@
+.products {
+    display: flex;
+    flex-direction: column;
+
+    img {
+        width: 50%;
+        border-radius: 10px;
+    }
+}

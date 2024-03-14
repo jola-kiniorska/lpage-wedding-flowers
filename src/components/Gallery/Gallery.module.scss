@@ -1,0 +1,12 @@
+@import '../../styles/settings.scss';
+
+.section_gallery {
+    background-image: url(../../img/gallery.jpg);
+    height: 1050px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,12 @@
+.section_contact {
+    display: flex;
+    flex-direction: row;
+
+    .section_element {
+        width: 50%;
+
+        img {
+            width: 100%;
+        }
+    }
+}

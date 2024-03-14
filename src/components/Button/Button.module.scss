@@ -1,0 +1,15 @@
+@import '../../styles/settings.scss';
+
+.button {
+    background-color: $color-main;
+    width: max-content;
+    padding: 15px 40px;
+    border-radius: 10px;
+
+    a {
+        text-decoration: none;
+        color: $color-light;
+        font-size: 20px;
+        font-weight: 500;
+    }
+}

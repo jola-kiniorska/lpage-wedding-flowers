@@ -1,6 +1,8 @@
+import styles from './Button.module.scss';
+
 const Button = props => {
     return (
-        <div>
+        <div className={styles.button}>
             <a href="#">Galeria</a>
         </div>
     )

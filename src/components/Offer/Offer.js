@@ -1,11 +1,12 @@
 import OfferProducts from "../OfferProducts/OfferProducts";
 import Title from "../Title/Title";
+import styles from "./Offer.module.scss";
 
 const Offer = props => {
     return (
-        <div>
+        <div className={styles.section_offer}>
             <Title/>
-            <div>
+            <div className={styles.products}>
                 <OfferProducts/>
                 <OfferProducts/>
                 <OfferProducts/>

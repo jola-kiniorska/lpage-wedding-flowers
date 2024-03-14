@@ -1,0 +1,15 @@
+@import '../../styles/settings.scss';
+
+.section_offer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: $color-background;
+}
+
+.products {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
