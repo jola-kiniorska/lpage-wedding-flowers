@@ -1,6 +1,16 @@
+import OfferProducts from "../OfferProducts/OfferProducts";
+import Title from "../Title/Title";
+
 const Offer = props => {
     return (
-        <div>Hej</div>
+        <div>
+            <Title/>
+            <div>
+                <OfferProducts/>
+                <OfferProducts/>
+                <OfferProducts/>
+            </div>
+        </div>
     )
 }
 

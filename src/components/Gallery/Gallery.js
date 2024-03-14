@@ -1,6 +1,11 @@
+import Button from "../Button/Button";
+
 const Gallery = props => {
     return (
-        <div>Hej</div>
+        <div>
+            <p>Zobacz nasze realizacje</p>
+            <Button/>
+        </div>
     )
 }
 
