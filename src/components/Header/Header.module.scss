@@ -1,7 +1,20 @@
 .header {
-    background-color: pink;
+    background-image: url(../../../public/images/wedding_flowers.jpg);
+    height: 1040px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: end;
+    align-items: center;
 
     h2 {
+        margin: 0;
         font-size: 60px;
+        padding-right: 10%;
+
+        span {
+            color: red
+        }
     }
 }
+
