@@ -6,10 +6,12 @@
     align-items: center;
     justify-content: space-between;
     background-color: $color-background;
+    padding: 5% 15% 10%;
 }
 
 .products {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
+    margin-top: 8%;
 }

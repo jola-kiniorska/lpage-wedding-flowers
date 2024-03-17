@@ -1,14 +1,17 @@
 import styles from "./OfferProducts.module.scss";
-import offer from "../../img/offers_3.jpg"
 
 const OfferProducts = props => {
     return (
         <div className={styles.products}>
-            <img src={offer} alt={'offer'}></img>
-            <p>Wianki</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <div className={styles.product_img}>
+                <img src={props.img} alt={'offer'}></img>
+            </div>
+            <div className={styles.product_txt}>
+                <p>{props.name}</p>
+                <p>{props.description}.</p>
+            </div>
         </div>
     )
 }
 
-export default OfferProducts;
+export default OfferProducts; 

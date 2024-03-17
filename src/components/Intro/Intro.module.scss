@@ -1,5 +1,5 @@
 .section_intro {
-    padding: 5% 15%;
+    padding: 10% 15%;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -11,8 +11,10 @@
     flex-direction: column;
     justify-content: center;
 
-    img {
-        width: 350px;
+    &:first-child {
+        width: 300px;
+        margin-right: 10%;
+        overflow: hidden;
         border-radius: 20px;
     }
 }

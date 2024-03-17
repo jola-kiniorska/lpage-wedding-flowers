@@ -10,7 +10,7 @@ const Contact = props => {
                 <img src={flower} alt={'flower'}></img>
             </div>
             <div className={styles.section_element}>
-                <Title/>
+                <Title title="Kontakt"/>
                 <Paragraph />
             </div>
         </div>

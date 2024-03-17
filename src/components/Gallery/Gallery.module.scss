@@ -2,11 +2,27 @@
 
 .section_gallery {
     background-image: url(../../img/gallery.jpg);
-    height: 1050px;
+    height: 1300px;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
+
+    .gallery_txt {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: $color-transparent;
+        width: 100%;
+        padding: 20px 0 30px;
+
+        p {
+            font-family: $font-main;
+            font-size: 48px;
+            line-height: 1.5;
+            font-weight: 500;
+            padding-bottom: 30px;
+        }
+    }
 }

@@ -11,4 +11,20 @@ body {
     font-size: ($base-size * 1.1);
     color: $color-dark;
     letter-spacing: 0.5px;
+
+    p, h2 {
+      margin: 0;
+    }
+
+    img { 
+      -webkit-transform: scale(1);
+      transform: scale(1);
+      -webkit-transition: .3s ease-in-out;
+      transition: .3s ease-in-out;
+
+      &:hover {
+          -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+      }
+  }
   }
