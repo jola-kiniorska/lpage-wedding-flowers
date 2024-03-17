@@ -1,4 +1,5 @@
 .section_intro {
+    padding: 5% 15%;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -11,7 +12,7 @@
     justify-content: center;
 
     img {
-        width: 500px;
-        border-radius: 10px;
+        width: 350px;
+        border-radius: 20px;
     }
 }

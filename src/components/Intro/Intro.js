@@ -1,7 +1,8 @@
 import Paragraph from "../Paragraph/Paragraph";
 import Title from "../Title/Title";
 import styles from './Intro.module.scss';
-import woman from '../../img/offers_2.jpg'
+import woman from '../../img/person.jpg'
+import Quote from "../Quote/Quote";
 
 const Intro = props => {
     return (
@@ -10,7 +11,7 @@ const Intro = props => {
                 <img src={woman} alt={'woman'}/>
             </div>
             <div className={styles.section_element}>
-                <p>Ziemia śmieje się kwiatami. – Ralph Waldo Emerson</p>
+                <Quote/>
                 <Title/>
                 <Paragraph/>
             </div>
