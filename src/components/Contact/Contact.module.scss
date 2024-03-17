@@ -9,16 +9,16 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin: 5%;
 
-    img {
-        width: 100%;
+    &:first-of-type {
+        width: 50%;
+        overflow: hidden;
+        border-radius: 10px;
 
-        &:hover {
-            transform: none;
+        img {
+            object-fit: cover;
+            border-radius: 10px;
         }
-    }
-
-    &:last-of-type {
-        padding: 5%;
     }
 }
