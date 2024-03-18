@@ -1,60 +1,60 @@
-@import '../../styles/settings.scss';
+@import "../../styles/settings.scss";
 
 .button {
-    width: max-content;
-    padding: 0 40px 15px;
+  width: max-content;
+  padding: 0 40px 15px;
+  border-radius: 10px;
+
+  a {
+    display: flex;
+    width: 150px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    line-height: 35px;
+    border: 1px solid;
     border-radius: 10px;
+    text-align: center;
+    font-size: 18px;
+    text-decoration: none;
+    transition: all 0.35s;
+    box-sizing: border-box;
+    position: relative;
+    background-color: $color-main;
+    border-color: $color-main;
+    color: $color-light;
+    overflow: hidden;
 
-    a {
-        display: flex;
-        width: 150px;
-        height: 50px;
-        justify-content: center;
-        align-items: center;
-        line-height: 35px;
-        border: 1px solid;
-        border-radius: 10px;
-        text-align: center;
-        font-size: 18px;
-        text-decoration: none;
-        transition: all 0.35s;
-        box-sizing: border-box;
-        position: relative;
-        background-color: $color-main;
-        border-color: $color-main;
-        color: $color-light;
-        overflow: hidden;
-
-        &::before,
-        &::after {
-          height: 100%;
-          position: absolute;
-          top: 0;
-          left: 0;
-          transform: translateX(-100px) skewX(-15deg);
-          content: "";
-        }
-        &::before {
-          width: 60px;
-          background: $color-hover-light;
-          filter: blur(30px);
-          opacity: 0.5;
-        }
-        &::after {
-          width: 30px;
-          left: 30px;
-          background: $color-hover-dark;
-          filter: blur(5px);
-        }
-        &:hover {
-          &::before {
-            opacity: 1;
-          }
-          &::before,
-          &::after {
-            transform: translateX(300px) skewX(-15deg);
-            transition: all 0.9s ease;
-          }
+    &::before,
+    &::after {
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      transform: translateX(-100px) skewX(-15deg);
+      content: "";
     }
-}
+    &::before {
+      width: 60px;
+      background: $color-hover-light;
+      filter: blur(30px);
+      opacity: 0.5;
+    }
+    &::after {
+      width: 30px;
+      left: 30px;
+      background: $color-hover-dark;
+      filter: blur(5px);
+    }
+    &:hover {
+      &::before {
+        opacity: 1;
+      }
+      &::before,
+      &::after {
+        transform: translateX(300px) skewX(-15deg);
+        transition: all 0.9s ease;
+      }
+    }
+  }
 }

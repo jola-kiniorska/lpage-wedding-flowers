@@ -8,16 +8,16 @@ import Offer from "./components/Offer/Offer";
 
 const App = () => {
   return (
-<main>
-  <Container>
-    <Header/>
-    <Intro/>
-    <Offer/>
-    <Gallery/>
-    <Contact/>
-    <Footer />
-  </Container>
-</main>
+    <main>
+      <Container>
+        <Header />
+        <Intro />
+        <Offer />
+        <Gallery />
+        <Contact />
+        <Footer />
+      </Container>
+    </main>
   );
 }
 

@@ -1,12 +1,12 @@
-import Button from "../Button/Button";
 import styles from "./Gallery.module.scss";
+import Button from "../Button/Button";
 
-const Gallery = props => {
+const Gallery = () => {
     return (
         <div className={styles.section_gallery}>
             <div className={styles.gallery_txt}>
                 <p>Zobacz nasze realizacje</p>
-                <Button/>
+                <Button link='https://www.canva.com/' />
             </div>
         </div>
     )
