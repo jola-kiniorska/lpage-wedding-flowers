@@ -1,9 +1,17 @@
 import styles from './Button.module.scss';
+import { useNavigate } from "react-router-dom";
 
 const Button = props => {
+
+    let navigate = useNavigate(); 
+    const routeChange = () => { 
+      let path = `/gallery`; 
+      navigate(path);
+    }
+
     return (
         <div className={styles.button}>
-            <a href={props.link}>Galeria</a>
+            <button onClick={routeChange}>Galeria</button>
         </div>
     )
 }
