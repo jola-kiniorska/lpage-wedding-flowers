@@ -4,14 +4,13 @@ import { useNavigate } from "react-router-dom";
 const Button = props => {
 
     let navigate = useNavigate(); 
-    const routeChange = () => { 
-      let path = `/gallery`; 
-      navigate(path);
+    const goToSite = (page) => { 
+      navigate(page);
     }
 
     return (
         <div className={styles.button}>
-            <button onClick={routeChange}>Galeria</button>
+            <button onClick={() => goToSite(props.page)}>Galeria</button>
         </div>
     )
 }

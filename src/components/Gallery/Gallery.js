@@ -6,7 +6,7 @@ const Gallery = () => {
         <div className={styles.section_gallery}>
             <div className={styles.gallery_txt}>
                 <p>Zobacz nasze realizacje</p>
-                <Button link='https://www.canva.com/' />
+                <Button link='https://www.canva.com/' page="/gallery" />
             </div>
         </div>
     )
