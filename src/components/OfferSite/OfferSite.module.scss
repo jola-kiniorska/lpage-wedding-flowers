@@ -1,0 +1,31 @@
+@import "../../styles/settings.scss";
+
+.offer_site {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  max-height: 1200px;
+
+  .section_element {
+    width: 50%;
+    height: 1200px;
+
+    img {
+      width: 100%;
+      transform: none;
+      height: inherit;
+      object-fit: cover;
+    }
+
+    &:last-of-type {
+      display: flex;
+      flex-direction: column;
+      padding: 5% 8% 0 8%;
+
+      .offer_description {
+        padding-top: 36px;
+      }
+    }
+  }
+}
