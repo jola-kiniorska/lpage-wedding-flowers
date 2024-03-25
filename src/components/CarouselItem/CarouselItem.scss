@@ -1,20 +1,16 @@
 @import "../../styles/settings.scss";
 
-.carousel_item {
-  margin: 150px 0 100px;
-
-  .react-multi-carousel-list  {
+.react-multi-carousel-list {
     padding-bottom: 40px;
-  }
+    margin: 150px 0 80px;
 
-  img {
-    display: block;
-    margin: auto;
-    height: auto;
-    width: 70%;
-
-    &:hover {
-      transform: none;
+    .react-multi-carousel-item {
+        img {
+            display: block;
+            margin: auto;
+            height: auto;
+            width: 70%;
+            border-radius: 20px;
+        }
     }
-  }
 }

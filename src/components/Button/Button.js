@@ -1,16 +1,15 @@
 import styles from './Button.module.scss';
-import { useNavigate } from "react-router-dom";
 
 const Button = props => {
 
-    let navigate = useNavigate(); 
-    const goToSite = (page) => { 
-      navigate(page);
+    const scrollToElement = (element) => {
+        const section = document.querySelector(element);
+        section.scrollIntoView({behavior: 'smooth'});
     }
 
     return (
         <div className={styles.button}>
-            <button onClick={() => goToSite(props.page)}>Galeria</button>
+            <button onClick={() => scrollToElement(props.element)}>{props.name}</button>
         </div>
     )
 }

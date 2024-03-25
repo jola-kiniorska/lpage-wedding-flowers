@@ -11,10 +11,9 @@ import imgGallery6 from "../../img/gallery_6.jpg";
 const CarouselItem = () => {
 
     return (
-        <div class="carousel_item">
+        <div>
             <Carousel
                 infinite={true}
-                showDots={true}
                 responsive={{
                     desktop: {
                         breakpoint: {

@@ -10,7 +10,7 @@
         flex-direction: column;
         justify-content: center;
 
-        &:first-child {
+        &:first-of-type {
             width: 300px;
             margin-right: 10%;
             overflow: hidden;
