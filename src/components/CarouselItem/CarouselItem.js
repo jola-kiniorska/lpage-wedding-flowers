@@ -1,32 +1,20 @@
-import styles from './CarouselItem.module.scss';
+import './CarouselItem.scss';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import imgOffer1 from "../../img/offers_1.jpg";
-import imgOffer2 from "../../img/offers_2.jpg";
-import imgOffer3 from "../../img/offers_3.jpg";
+import imgGallery1 from "../../img/gallery_1.jpg";
+import imgGallery2 from "../../img/gallery_2.jpg";
+import imgGallery3 from "../../img/gallery_3.jpg";
+import imgGallery4 from "../../img/gallery_4.jpg";
+import imgGallery5 from "../../img/gallery_5.jpg";
+import imgGallery6 from "../../img/gallery_6.jpg";
 
 const CarouselItem = () => {
 
     return (
-        <div className={styles.carousel_item}>
+        <div class="carousel_item">
             <Carousel
-                additionalTransfrom={0}
-                arrows
-                autoPlaySpeed={3000}
-                centerMode={false}
-                className=""
-                containerClass="container"
-                dotListClass=""
-                draggable
-                focusOnSelect={false}
-                infinite
-                itemClass=""
-                keyBoardControl
-                minimumTouchDrag={80}
-                pauseOnHover
-                renderArrowsWhenDisabled={false}
-                renderButtonGroupOutside={false}
-                renderDotsOutside={false}
+                infinite={true}
+                showDots={true}
                 responsive={{
                     desktop: {
                         breakpoint: {
@@ -50,44 +38,30 @@ const CarouselItem = () => {
                         items: 1
                     }
                 }}
-                rewind={false}
-                rewindWithAnimation={false}
-                rtl={false}
-                shouldResetAutoplay
-                showDots
-                sliderClass=""
-                slidesToSlide={1}
-                swipeable
             >
                 <img
-                    src={imgOffer1}
-                    alt="carousel"
-                    style={{
-                        display: 'block',
-                        height: '200px',
-                        margin: 'auto',
-                        width: '200px'
-                    }}
+                    src={imgGallery1}
+                    alt="wedding-flowers"
                 />
                 <img
-                    src={imgOffer2}
-                    alt="carousel"
-                    style={{
-                        display: 'block',
-                        height: '200px',
-                        margin: 'auto',
-                        width: '200px'
-                    }}
+                    src={imgGallery2}
+                    alt="wedding-flowers"
                 />
                 <img
-                    src={imgOffer3}
-                    alt="carousel"
-                    style={{
-                        display: 'block',
-                        height: '200px',
-                        margin: 'auto',
-                        width: '200px'
-                    }}
+                    src={imgGallery3}
+                    alt="wedding-flowers"
+                />
+                <img
+                    src={imgGallery4}
+                    alt="wedding-flowers"
+                />
+                <img
+                    src={imgGallery5}
+                    alt="wedding-flowers"
+                />
+                <img
+                    src={imgGallery6}
+                    alt="wedding-flowers"
                 />
             </Carousel>
         </div>
