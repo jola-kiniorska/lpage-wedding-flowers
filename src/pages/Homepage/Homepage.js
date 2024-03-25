@@ -1,3 +1,4 @@
+import CarouselItem from "../../components/CarouselItem/CarouselItem";
 import Contact from "../../components/Contact/Contact";
 import Footer from "../../components/Footer/Footer";
 import Gallery from "../../components/Gallery/Gallery";
@@ -13,6 +14,7 @@ const Homepage = () => {
             <Intro />
             <Offer />
             <Gallery />
+            <CarouselItem />
             <Contact />
             <Footer />
         </main>
