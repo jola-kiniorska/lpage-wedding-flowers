@@ -1,9 +1,9 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import Homepage from "./pages/Homepage/Homepage";
-import OfferFlowerCrown from "./pages/OfferFlowerCrown/OfferFlowerCrown";
-import OfferBouquet from "./pages/OfferBouquet/OfferBouquet";
-import OfferButtonhole from "./pages/OfferButtonhole/OfferButtonhole";
+import Homepage from "./pages/Homepage/Homepage.tsx";
+import OfferFlowerCrown from "./pages/OfferFlowerCrown/OfferFlowerCrown.tsx";
+import OfferBouquet from "./pages/OfferBouquet/OfferBouquet.tsx";
+import OfferButtonhole from "./pages/OfferButtonhole/OfferButtonhole.tsx";
 
 const App = () => {
   return (
