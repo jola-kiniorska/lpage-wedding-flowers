@@ -7,9 +7,11 @@ interface ButtonProps {
 }
 
 const Button = ({ element, name }: ButtonProps) => {
-  const scrollToElement = (el) => {
+  const scrollToElement = (el: string) => {
     const section = document.querySelector(el);
-    section.scrollIntoView({ behavior: "smooth", block: "center" });
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth", block: "center" });
+    }
   };
 
   return (
