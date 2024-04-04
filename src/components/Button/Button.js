@@ -4,7 +4,7 @@ const Button = props => {
 
     const scrollToElement = (element) => {
         const section = document.querySelector(element);
-        section.scrollIntoView({behavior: 'smooth'});
+        section.scrollIntoView({behavior: 'smooth', block: "center"});
     }
 
     return (

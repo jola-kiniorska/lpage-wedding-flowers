@@ -1,8 +1,13 @@
+import { useEffect } from "react";
 import Footer from "../../components/Footer/Footer";
 import OfferSite from "../../components/OfferSite/OfferSite";
 import imgOfferSite1 from "../../img/offer_site_3.jpg";
 
 const OfferButtonhole = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
 
     return (
         <main>

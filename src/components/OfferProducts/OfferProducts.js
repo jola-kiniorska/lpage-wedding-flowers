@@ -5,7 +5,6 @@ const OfferProducts = props => {
 
     let navigate = useNavigate();
     const goToSite = (page) => {
-        console.log(page)
         navigate(page);
     }
 

@@ -6,7 +6,7 @@ const Gallery = () => {
         <div className={styles.section_gallery}>
             <div className={styles.gallery_txt}>
                 <p>Zobacz nasze realizacje</p>
-                <Button name='Galeria' element='.react-multi-carousel-list'/>
+                <Button name='Galeria' element='.react-multi-carousel-track'/>
             </div>
         </div>
     )
