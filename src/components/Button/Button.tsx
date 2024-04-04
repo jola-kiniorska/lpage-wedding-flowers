@@ -1,9 +1,14 @@
 import React from "react";
 import styles from "./Button.module.scss";
 
-const Button = ({ element, name }: { element: string; name: string }) => {
-  const scrollToElement = (element) => {
-    const section = document.querySelector(element);
+interface ButtonProps {
+  element: string;
+  name: string;
+}
+
+const Button = ({ element, name }: ButtonProps) => {
+  const scrollToElement = (el) => {
+    const section = document.querySelector(el);
     section.scrollIntoView({ behavior: "smooth", block: "center" });
   };
 

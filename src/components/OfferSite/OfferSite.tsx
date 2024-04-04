@@ -3,6 +3,20 @@ import styles from "./OfferSite.module.scss";
 import Title from "../Title/Title.tsx";
 import OfferParagraph from "../OfferParagraph/OfferParagraph.tsx";
 
+interface OfferSiteProps {
+  offerSiteImg: string;
+  imgDescription: string;
+  title: string;
+  theme_1: string;
+  theme_2: string;
+  theme_3: string;
+  theme_4: string;
+  description_1: string;
+  description_2: string;
+  description_3: string;
+  description_4: string;
+}
+
 const OfferSite = ({
   offerSiteImg,
   imgDescription,
@@ -15,19 +29,8 @@ const OfferSite = ({
   description_2,
   description_3,
   description_4,
-}: {
-  offerSiteImg: string;
-  imgDescription: string;
-  title: string;
-  theme_1: string;
-  theme_2: string;
-  theme_3: string;
-  theme_4: string;
-  description_1: string;
-  description_2: string;
-  description_3: string;
-  description_4: string;
-}) => {
+}: OfferSiteProps) => {
+  
   return (
     <div className={styles.offer_site}>
       <div className={styles.section_element}>
