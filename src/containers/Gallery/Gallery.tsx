@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./Gallery.module.scss";
-import Button from "../Button/Button.tsx";
+import Button from "../../components/Button/Button.tsx";
 
 const Gallery = () => {
   return (

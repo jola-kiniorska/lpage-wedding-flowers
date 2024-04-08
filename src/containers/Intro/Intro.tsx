@@ -1,8 +1,8 @@
 import React from "react";
 import styles from "./Intro.module.scss";
-import Paragraph from "../Paragraph/Paragraph.tsx";
-import Title from "../Title/Title.tsx";
-import Quote from "../Quote/Quote.tsx";
+import Paragraph from "../../components/Paragraph/Paragraph.tsx";
+import Title from "../../components/Title/Title.tsx";
+import Quote from "../../components/Quote/Quote.tsx";
 import imgWoman from "../../img/woman.jpg";
 
 const Intro = () => {

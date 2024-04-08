@@ -1,11 +1,11 @@
 import React from "react";
-import CarouselItem from "../../components/CarouselItem/CarouselItem.tsx";
-import Contact from "../../components/Contact/Contact.tsx";
-import Footer from "../../components/Footer/Footer.tsx";
-import Gallery from "../../components/Gallery/Gallery.tsx";
-import Header from "../../components/Header/Header.tsx";
-import Intro from "../../components/Intro/Intro.tsx";
-import Offer from "../../components/Offer/Offer.tsx";
+import CarouselItem from "../../containers/CarouselItem/CarouselItem.tsx";
+import Contact from "../../containers/Contact/Contact.tsx";
+import Footer from "../../containers/Footer/Footer.tsx";
+import Gallery from "../../containers/Gallery/Gallery.tsx";
+import Header from "../../containers/Header/Header.tsx";
+import Intro from "../../containers/Intro/Intro.tsx";
+import Offer from "../../containers/Offer/Offer.tsx";
 
 const Homepage = () => {
   return (

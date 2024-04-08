@@ -1,10 +1,10 @@
 import React from "react";
 import styles from "./Contact.module.scss";
 import contactImg from "../../img/contact.jpg";
-import Title from "../Title/Title.tsx";
-import Paragraph from "../Paragraph/Paragraph.tsx";
-import Address from "../Address/Address.tsx";
-import Line from "../Line/Line.tsx";
+import Title from "../../components/Title/Title.tsx";
+import Paragraph from "../../components/Paragraph/Paragraph.tsx";
+import Address from "../../components/Address/Address.tsx";
+import Line from "../../components/Line/Line.tsx";
 
 const Contact = () => {
   return (
