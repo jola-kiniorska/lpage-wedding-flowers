@@ -2,7 +2,7 @@
 
 .section_1 {
     background-image: url(../../img/wedding_flowers.jpg);
-    height: 1000px;
+    height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
@@ -11,13 +11,14 @@
     align-items: center;
 
     .section_title {
-        font-size: 60px;
+        font-size: 42px;
         font-weight: 400;
-        padding: 20% 10% 0 0;
         font-family: $font-header;
-        line-height: 1.5;
-        letter-spacing: 2px;
+        padding: 25% 0 0;
+        line-height: 1.2;
+        letter-spacing: 1px;
         opacity: 0.85;
+        text-align: center;
 
         span {
             color: $color-main;
@@ -27,5 +28,15 @@
 }
 
 @media only screen and (min-width: 1024px) {
+    .section_1 {
+        height: 1000px;
+        text-align: left;
 
+        .section_title {
+            font-size: 60px;
+            padding: 20% 10% 0 0;
+            line-height: 1.5;
+            letter-spacing: 2px;
+        }
+    }
 }

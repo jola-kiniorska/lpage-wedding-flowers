@@ -10,8 +10,16 @@
 
     .section_products {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
         margin-top: 8%;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .section_3 {
+        .section_products {
+            flex-direction: row;
+        }
     }
 }

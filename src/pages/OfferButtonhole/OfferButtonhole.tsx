@@ -1,5 +1,6 @@
 import React from "react";
 import { useEffect } from "react";
+import Container from "../../containers/Container/Container.tsx";
 import Footer from "../../containers/Footer/Footer.tsx";
 import OfferSite from "../../components/OfferSite/OfferSite.tsx";
 import imgOfferSite1 from "../../img/offer_site_3.jpg";
@@ -10,7 +11,7 @@ const OfferButtonhole = () => {
   }, []);
 
   return (
-    <main>
+    <Container>
       <OfferSite
         offerSiteImg={imgOfferSite1}
         imgDescription="flowers"
@@ -25,7 +26,7 @@ const OfferButtonhole = () => {
         description_4="Lorem ipsum"
       />
       <Footer />
-    </main>
+    </Container>
   );
 };
 
