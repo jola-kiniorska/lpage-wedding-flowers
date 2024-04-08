@@ -6,10 +6,11 @@ import Gallery from "../../containers/Gallery/Gallery.tsx";
 import Header from "../../containers/Header/Header.tsx";
 import Intro from "../../containers/Intro/Intro.tsx";
 import Offer from "../../containers/Offer/Offer.tsx";
+import Container from "../../containers/Container/Container.tsx";
 
 const Homepage = () => {
   return (
-    <main>
+    <Container>
       <Header />
       <Intro />
       <Offer />
@@ -17,7 +18,7 @@ const Homepage = () => {
       <CarouselItem />
       <Contact />
       <Footer />
-    </main>
+    </Container>
   );
 };
 

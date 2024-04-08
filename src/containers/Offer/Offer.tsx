@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./Offer.module.scss";
+import "./Offer.scss";
 import Title from "../../components/Title/Title.tsx";
 import OfferProducts from "../../components/OfferProducts/OfferProducts.tsx";
 import imgOffer1 from "../../img/offers_1.jpg";
@@ -8,9 +8,9 @@ import imgOffer3 from "../../img/offers_3.jpg";
 
 const Offer = () => {
   return (
-    <div className={styles.section_offer}>
+    <div className="section section_3">
       <Title title="Nasza oferta" />
-      <div className={styles.products}>
+      <div className="section_products">
         <OfferProducts
           img={imgOffer1}
           name="Wianki"

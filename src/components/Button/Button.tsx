@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./Button.module.scss";
+import "./Button.scss";
 
 interface ButtonProps {
   element: string;
@@ -15,7 +15,7 @@ const Button = ({ element, name }: ButtonProps) => {
   };
 
   return (
-    <div className={styles.button}>
+    <div className="el_button">
       <button onClick={() => scrollToElement(element)}>{name}</button>
     </div>
   );

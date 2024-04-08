@@ -1,9 +1,9 @@
 import React from "react";
-import styles from "./Paragraph.module.scss";
+import "./Paragraph.scss";
 
 const Paragraph = ({ text }: { text: string }) => {
   return (
-    <div className={styles.paragraph}>
+    <div className="el_paragraph">
       <p>{text}</p>
     </div>
   );

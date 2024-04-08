@@ -1,6 +1,6 @@
 @import "../../styles/settings.scss";
 
-.section_header {
+.section_1 {
     background-image: url(../../img/wedding_flowers.jpg);
     height: 1000px;
     background-repeat: no-repeat;
@@ -10,7 +10,7 @@
     justify-content: end;
     align-items: center;
 
-    h2 {
+    .section_title {
         font-size: 60px;
         font-weight: 400;
         padding: 20% 10% 0 0;

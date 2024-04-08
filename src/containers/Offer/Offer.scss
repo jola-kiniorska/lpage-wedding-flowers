@@ -1,6 +1,6 @@
 @import "../../styles/settings.scss";
 
-.section_offer {
+.section_3 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -8,7 +8,7 @@
     background-color: $color-background;
     padding: 5% 15% 10%;
 
-    .products {
+    .section_products {
         display: flex;
         flex-direction: row;
         justify-content: center;

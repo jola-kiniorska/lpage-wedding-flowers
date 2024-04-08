@@ -11,7 +11,7 @@ import imgGallery6 from "../../img/gallery_6.jpg";
 
 const CarouselItem = () => {
   return (
-    <div className="gallery-carousel">
+    <div className="section section_5">
       <Carousel
         infinite={true}
         responsive={{

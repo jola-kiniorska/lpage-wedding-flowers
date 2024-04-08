@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./OfferProducts.module.scss";
+import "./OfferProducts.scss";
 import { useNavigate } from "react-router-dom";
 
 interface OfferProductsProps {
@@ -16,11 +16,11 @@ const OfferProducts = ({ img, page, name, description }: OfferProductsProps) => 
   };
 
   return (
-    <div className={styles.products}>
-      <div className={styles.product_img}>
+    <div className="el_products">
+      <div className="product_image">
         <img src={img} onClick={() => goToSite(page)} alt={"offer-img"}></img>
       </div>
-      <div className={styles.product_txt}>
+      <div className="product_text">
         <p>{name}</p>
         <p>{description}.</p>
       </div>

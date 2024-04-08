@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./OfferSite.module.scss";
+import "./OfferSite.scss";
 import Title from "../Title/Title.tsx";
 import OfferParagraph from "../OfferParagraph/OfferParagraph.tsx";
 
@@ -32,13 +32,13 @@ const OfferSite = ({
 }: OfferSiteProps) => {
   
   return (
-    <div className={styles.offer_site}>
-      <div className={styles.section_element}>
+    <div className="offer_site">
+      <div className="section_element">
         <img src={offerSiteImg} alt={imgDescription}></img>
       </div>
-      <div className={styles.section_element}>
+      <div className="section_element">
         <Title title={title} />
-        <div className={styles.offer_description}>
+        <div className="offer_description">
           <OfferParagraph theme={theme_1} description={description_1} />
           <OfferParagraph theme={theme_2} description={description_2} />
           <OfferParagraph theme={theme_3} description={description_3} />

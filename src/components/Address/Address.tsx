@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./Address.module.scss";
+import "./Address.scss";
 
 interface AddressProps {
   text_one: string;
@@ -9,7 +9,7 @@ interface AddressProps {
 
 const Address = ({ text_one, text_two, text_three }: AddressProps) => {
   return (
-    <div className={styles.address}>
+    <div className="el_address">
       <p>
         {text_one}
         <br />

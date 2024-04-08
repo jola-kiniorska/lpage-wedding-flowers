@@ -1,8 +1,8 @@
 import React from "react";
-import styles from "./Container.module.scss";
+import "./Container.scss";
 
 const Container = ({ children }: { children: string }) => {
-  return <div className={styles.container}>{children}</div>;
+  return <div className="landing-page">{children}</div>;
 };
 
 export default Container;

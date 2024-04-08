@@ -1,6 +1,6 @@
 @import "../../styles/settings.scss";
 
-.section_gallery {
+.section_4 {
     background-image: url(../../img/gallery.jpg);
     height: 1300px;
     background-repeat: no-repeat;
@@ -9,7 +9,7 @@
     display: flex;
     align-items: center;
 
-    .gallery_txt {
+    .gallery_text {
         display: flex;
         flex-direction: column;
         justify-content: center;

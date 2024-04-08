@@ -1,24 +1,24 @@
-@import "../../styles/settings.scss";
+.section_5 {
+    .react-multi-carousel-list {
+        padding-bottom: 40px;
+        margin: 150px 0 80px;
 
-.react-multi-carousel-list {
-    padding-bottom: 40px;
-    margin: 150px 0 80px;
+        .react-multiple-carousel__arrow--right {
+            right: calc(5% + 1px);
+        }
 
-    .react-multiple-carousel__arrow--right {
-        right: calc(5% + 1px);
-    }
+        .react-multiple-carousel__arrow--left {
+            left: calc(5% + 1px);
+        }
 
-    .react-multiple-carousel__arrow--left {
-        left: calc(5% + 1px);
-    }
-
-    .react-multi-carousel-item {
-        img {
-            display: block;
-            margin: auto;
-            height: auto;
-            width: 70%;
-            border-radius: 20px;
+        .react-multi-carousel-item {
+            img {
+                display: block;
+                margin: auto;
+                height: auto;
+                width: 70%;
+                border-radius: 20px;
+            }
         }
     }
 }

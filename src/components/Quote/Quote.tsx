@@ -1,9 +1,9 @@
 import React from "react";
-import styles from "./Quote.module.scss";
+import "./Quote.scss";
 
 const Quote = ({ quote }: { quote: string }) => {
   return (
-    <div className={styles.quote}>
+    <div className="el_quote">
       <p>{quote}</p>
     </div>
   );

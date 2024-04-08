@@ -1,8 +1,8 @@
 import React from "react";
-import styles from "./Line.module.scss";
+import "./Line.scss";
 
 const Line = () => {
-  return <div className={styles.line}></div>;
+  return <div className="el_line"></div>;
 };
 
 export default Line;

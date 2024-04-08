@@ -1,10 +1,10 @@
 import React from "react";
-import styles from "./Header.module.scss";
+import "./Header.scss";
 
 const Header = () => {
   return (
-    <div className={styles.section_header}>
-      <h2>
+    <div className="section section_1">
+      <h2 className="section_title">
         "A woman is a <span>flower...</span>"
       </h2>
     </div>
