@@ -2,11 +2,14 @@
 
 .el_paragraph {
     font-family: $font-main;
-    font-size: 26px;
+    font-size: 20px;
     color: $color-dark;
-    line-height: 1.4;
+    line-height: 1.2;
 }
 
 @media only screen and (min-width: 1024px) {
-
+    .el_paragraph {
+        font-size: 26px;
+        line-height: 1.4;
+    }
 }

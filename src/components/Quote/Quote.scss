@@ -1,13 +1,17 @@
 @import "../../styles/settings.scss";
 
-.quote {
+.el_quote {
     font-family: $font-header;
-    font-size: 18px;
+    font-size: 16px;
     color: $color-dark;
-    line-height: 1.4;
-    padding-bottom: 20px;
+    line-height: 1.2;
+    padding-bottom: 14px;
 }
 
 @media only screen and (min-width: 1024px) {
-
+    .el_quote {
+        font-size: 18px;
+        line-height: 1.4;
+        padding-bottom: 20px;
+    }
 }

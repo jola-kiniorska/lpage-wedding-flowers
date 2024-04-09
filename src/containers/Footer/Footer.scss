@@ -1,7 +1,7 @@
 @import "../../styles/settings.scss";
 
 .section_footer {
-    background-color: $color-background;
+    background-color: $color-footer;
     height: fit-content;
     padding: 2% 10%;
     display: flex;
@@ -9,24 +9,28 @@
     justify-content: center;
     align-items: center;
 
-    p {
-        font-size: 48px;
-        margin-bottom: 20px;
-    }
-
     .footer_text {
-        font-size: 18px;
-        padding-top: 32px;
+        font-size: 12px;
+        padding-top: 18px;
     }
 
     .footer_icons {
         display: flex;
         flex-direction: row;
-        justify-content: space-evenly;
-        width: 30%;
     }
 }
 
 @media only screen and (min-width: 1024px) {
+    .section_footer {
+        padding: 20px 0;
+        .footer_text {
+            font-size: 14px;
+            padding-top: 15px;
+        }
 
+        .footer_icons {
+            justify-content: space-evenly;
+            width: 20%;
+        }
+    }
 }

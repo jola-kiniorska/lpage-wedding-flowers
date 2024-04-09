@@ -1,12 +1,23 @@
 @import "../../styles/settings.scss";
 
 .el_link {
+  margin-top: 10px;
+
   img {
     width: auto;
-    height: 30px;
+    height: 18px;
+    padding: 0 10px;
   }
 }
 
 @media only screen and (min-width: 1024px) {
+  .el_link {
+    margin-top: 0;
 
+    img {
+      width: auto;
+      height: 25px;
+      padding: 0;
+    }
+  }
 }

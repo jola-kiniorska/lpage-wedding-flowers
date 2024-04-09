@@ -1,28 +1,20 @@
 .el_products {
     display: flex;
     flex-direction: column;
-    margin: 0 10%;
+    align-items: center;
+    margin-bottom: 15%;
 
     .product_image {
-        height: 250px;
-        width: 250px;
+        height: 200px;
+        width: 200px;
         overflow: hidden;
         border-radius: 10px;
         cursor: pointer;
 
         img {
-            height: 250px;
-            width: 250px;
+            height: 200px;
+            width: 200px;
             object-fit: cover;
-            -webkit-transform: scale(1);
-            transform: scale(1);
-            -webkit-transition: 0.3s ease-in-out;
-            transition: 0.3s ease-in-out;
-
-            &:hover {
-                -webkit-transform: scale(1.2);
-                transform: scale(1.2);
-            }
         }
     }
 
@@ -36,19 +28,54 @@
             text-align: center;
 
             &:first-of-type {
-                font-size: 22px;
+                font-size: 20px;
                 letter-spacing: 1px;
                 font-weight: 600;
-                padding-top: 10px;
             }
 
             &:last-of-type {
-                padding-top: 20px;
+                padding-top: 10px;
             }
         }
     }
 }
 
 @media only screen and (min-width: 1024px) {
+    .el_products {
+        margin: 0 10%;
 
+        .product_image {
+            height: 250px;
+            width: 250px;
+
+            img {
+                height: 250px;
+                width: 250px;
+                -webkit-transform: scale(1);
+                transform: scale(1);
+                -webkit-transition: 0.3s ease-in-out;
+                transition: 0.3s ease-in-out;
+
+                &:hover {
+                    -webkit-transform: scale(1.2);
+                    transform: scale(1.2);
+                }
+            }
+        }
+
+        .product_text {
+            p {
+                text-align: center;
+
+                &:first-of-type {
+                    font-size: 22px;
+                    padding-top: 10px;
+                }
+
+                &:last-of-type {
+                    padding-top: 20px;
+                }
+            }
+        }
+    }
 }

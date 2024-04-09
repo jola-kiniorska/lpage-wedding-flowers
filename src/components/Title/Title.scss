@@ -1,14 +1,18 @@
 @import "../../styles/settings.scss";
 
 .el_title {
-    font-size: 48px;
+    font-size: 28px;
     font-weight: 600;
     color: $color-main;
     font-family: $font-header;
-    padding-bottom: 20px;
-    text-align: left;
+    padding-bottom: 12px;
+    text-align: center;
 }
 
 @media only screen and (min-width: 1024px) {
-
+    .el_title {
+        font-size: 48px;
+        padding-bottom: 20px;
+        text-align: left;
+    }
 }

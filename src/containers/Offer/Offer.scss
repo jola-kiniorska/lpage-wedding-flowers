@@ -6,7 +6,7 @@
     align-items: center;
     justify-content: space-between;
     background-color: $color-background;
-    padding: 5% 15% 10%;
+    padding: 10% 15% 5%;
 
     .section_products {
         display: flex;
@@ -18,6 +18,8 @@
 
 @media only screen and (min-width: 1024px) {
     .section_3 {
+        padding: 5% 15% 10%;
+
         .section_products {
             flex-direction: row;
         }

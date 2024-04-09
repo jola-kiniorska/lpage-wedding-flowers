@@ -1,5 +1,5 @@
 .section_2 {
-    padding: 15%;
+    padding: 15% 10%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -10,11 +10,15 @@
         justify-content: center;
         text-align: center;
 
+        .el_quote {
+            display: none;
+        }
+
         &:first-of-type {
             width: 250px;
             overflow: hidden;
             border-radius: 20px;
-            margin-bottom: 40px;
+            margin-bottom: 24px;
             align-self: center;
         }
     }
@@ -31,6 +35,10 @@
             flex-direction: column;
             justify-content: center;
             text-align: left;
+
+            .el_quote {
+                display: block;
+            }
 
             &:first-of-type {
                 width: 300px;

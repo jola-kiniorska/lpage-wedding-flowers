@@ -1,14 +1,16 @@
-.section_5 {
-    .react-multi-carousel-list {
-        padding-bottom: 40px;
-        margin: 150px 0 80px;
+@import "../../styles/settings.scss";
 
+.section_5 {
+    background-color: $color-background;
+    padding: 100px 0 80px;
+
+    .react-multi-carousel-list {
         .react-multiple-carousel__arrow--right {
-            right: calc(5% + 1px);
+            right: calc(2% + 1px);
         }
 
         .react-multiple-carousel__arrow--left {
-            left: calc(5% + 1px);
+            left: calc(2% + 1px);
         }
 
         .react-multi-carousel-item {
@@ -24,5 +26,15 @@
 }
 
 @media only screen and (min-width: 1024px) {
+    .section_5 {
+        padding: 150px 0;
 
+        .react-multiple-carousel__arrow--right {
+            right: calc(5% + 1px);
+        }
+
+        .react-multiple-carousel__arrow--left {
+            left: calc(5% + 1px);
+        }
+    }
 }
