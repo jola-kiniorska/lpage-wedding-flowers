@@ -21,4 +21,4 @@ Project is created with:
 - react-multi-carousel
 
 ## App screenshots
-
+[app-screenshot](./src/img/screenshot.png)
