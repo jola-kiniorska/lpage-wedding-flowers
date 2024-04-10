@@ -2,10 +2,10 @@
 Landing page to present the company's services
 
 ## Table of contents
-[General info](#general-info)
-[Technologies](#technologies)
-[Packages used](#packages-used)
-[App screenshots](#app-screenshots)
+- [General info](#general-info)
+- [Technologies](#technologies)
+- [Packages used](#packages-used)
+- [App screenshots](#app-screenshots)
 
 ## General info
 - landing page is built on react components
