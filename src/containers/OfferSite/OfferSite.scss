@@ -1,0 +1,46 @@
+.offer_site {
+  display: flex;
+  flex-direction: column-reverse;
+  width: 100%;
+
+  .section_element {
+    img {
+      width: 100%;
+      transform: none;
+      object-fit: cover;
+    }
+
+    &:last-of-type {
+      display: flex;
+      flex-direction: column;
+      padding: 5% 8% 0 8%;
+
+      .offer_description {
+        padding-top: 16px;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .offer_site {
+    flex-direction: row;
+    justify-content: space-between;
+    max-height: 1200px;
+
+    .section_element {
+      width: 50%;
+      height: 1200px;
+
+      img {
+        height: inherit;
+      }
+
+      &:last-of-type {
+        .offer_description {
+          padding-top: 36px;
+        }
+      }
+    }
+  }
+}

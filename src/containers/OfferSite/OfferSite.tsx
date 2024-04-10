@@ -1,7 +1,7 @@
 import React from "react";
 import "./OfferSite.scss";
-import Title from "../Title/Title.tsx";
-import OfferParagraph from "../OfferParagraph/OfferParagraph.tsx";
+import Title from "../../components/Title/Title.tsx";
+import OfferParagraph from "../../components/OfferParagraph/OfferParagraph.tsx";
 
 interface OfferSiteProps {
   offerSiteImg: string;
