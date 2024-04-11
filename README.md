@@ -6,7 +6,6 @@ Landing page to present the company's services
 - [Technologies](#technologies)
 - [Packages used](#packages-used)
 - [App screenshot](#app-screenshots)
-- [App link](#app-link)
 
 ## General info
 - landing page is built on react components
@@ -29,5 +28,3 @@ Project is created with:
 
 ## App screenshot
 <img src="./src/img/screenshot.png" alt="app-screenshot">
-
-## App link
