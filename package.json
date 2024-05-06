@@ -41,6 +41,7 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-transform-private-property-in-object": "^7.24.5",
     "file-loader": "^6.2.0",
     "sass": "^1.71.1"
   }
