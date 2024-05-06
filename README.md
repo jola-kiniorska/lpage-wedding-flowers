@@ -5,7 +5,8 @@ Landing page to present the company's services
 - [General info](#general-info)
 - [Technologies](#technologies)
 - [Packages used](#packages-used)
-- [App screenshot](#app-screenshots)
+- [Website url](#website-url)
+- [Website screenshot](#website-screenshots)
 
 ## General info
 - landing page is built on react components
@@ -26,5 +27,8 @@ Project is created with:
 ## Packages used
 - react-multi-carousel
 
-## App screenshot
+## Website url
+https://zealous-tree-0e3f34703.5.azurestaticapps.net/
+
+## Website screenshot
 <img src="./src/img/screenshot.png" alt="app-screenshot">
