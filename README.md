@@ -1,4 +1,4 @@
-# Landing page - wedding flowers
+# Landing page - Wedding Flowers
 Landing page to present the company's services
 
 ## Table of contents
