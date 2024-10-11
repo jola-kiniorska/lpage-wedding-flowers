@@ -28,7 +28,7 @@ Project is created with:
 - react-multi-carousel
 
 ## Website url
-https://zealous-tree-0e3f34703.5.azurestaticapps.net/
+[Wedding Flowers](https://zealous-tree-0e3f34703.5.azurestaticapps.net/)
 
 ## Website screenshot
 <img src="./src/img/screenshot.png" alt="app-screenshot">
