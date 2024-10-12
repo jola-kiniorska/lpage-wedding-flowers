@@ -28,7 +28,7 @@ const Footer = () => {
         />
       </div>
       <p className="footer_text">
-        Copyright 2024 rights reserved. Powered by React
+        Created by Jola Kiniorska. Powered by React
       </p>
     </div>
   );
